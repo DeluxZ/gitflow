@@ -17,14 +17,14 @@ namespace aspnetcore2.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "GitFlow about page.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "GitFlow contact page";
 
             return View();
         }
